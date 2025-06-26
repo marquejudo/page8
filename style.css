@@ -4,21 +4,23 @@
 }
 #head{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #e1e4eb;
-    height: 5vh;
+    height: 6vh;
+    align-items: center;
 
 }
 #ehead {
     width: 20vw;
-    margin-left: 2vw;
-    margin-top: 1vh;
+
 }
 #ehead h1{
     color: green;
+    font-size: 28px;
 }
 #ehead h1 span{
     color: red;
+        font-size: 28px;
 }
 #null {
     width: 20vw;
@@ -29,7 +31,8 @@
     display: flex;
     justify-content: space-between;
     gap: 1vw;
-    margin-top: 1vh;
+    cursor: pointer;
+
 }
 #dhead p{
     color: gray;;
@@ -41,5 +44,50 @@
     display: flex;
     justify-content: space-between;
     gap: 2vw;
-    margin-top: 0.3vh;
+
+}
+#inicio {
+    background-color: #e1e4eb;
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    align-items: center;
+}
+#einicio {
+    margin-left: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+#einicio h1 {
+    font-size: 60px;
+}
+#divinicio{
+    display: flex;
+    margin-top: 1vh;
+    color: gray;
+}
+#divinicio p:hover{
+    color: black;
+    cursor: pointer;
+}
+#imginicio {}
+
+#sitep2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.oisom2{
+    margin-top: 10vh;
+    border: solid 1px green ;
+    width: 3vw;
+}
+.oisom1 h1{
+    font-size: 40px;
+}
+.oisom{
+    width: 30vw;
+}
+.oisom p{
+    text-align: center;
 }
