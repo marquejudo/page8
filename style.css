@@ -77,10 +77,15 @@
     flex-direction: column;
     align-items: center;
 }
-.oisom2{
+.linha1{
     margin-top: 10vh;
-    border: solid 1px green ;
+    border: solid 1px rgb(2, 180, 2) ;
     width: 3vw;
+}
+.linha2{
+    margin-top: 0.5vh;
+    border: solid 1px green ;
+    width: 5vw;
 }
 .oisom1 h1{
     font-size: 40px;
@@ -90,4 +95,48 @@
 }
 .oisom p{
     text-align: center;
+    color: grey;
+    margin-bottom: 4vh;
+}
+#blocos{
+    display: flex;
+    justify-content: center;
+}
+#bverde{
+    background-color: rgb(104, 170, 6);
+    height: 40vh;
+    width: 20vw;
+    margin-bottom: 10vh;
+    margin-right: 1vw;
+}
+#binput{
+    width: 35vw;
+    height: 40vh;
+    margin-left: 1vw;
+}
+#binpdiv1{
+    color: grey;
+}
+#binpdiv1 p a{
+    color: rgb(104, 170, 6);
+}
+#binpdiv2{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+#binpdiv2 input{
+    width: 17vw;
+    height: 4vh;
+    border: color(rgb 128, 128, 128)
+}
+#binpdiv3 input{
+    width: 34.8vw;
+    height: 4vh;
+    margin-top: 2vh;
+}
+#binpdiv4 input{
+    width: 34.8vw;
+    height: 10vh;
+    margin-top: 2vh;
 }
