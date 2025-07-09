@@ -1,30 +1,35 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-#head{
+
+#head {
     display: flex;
     justify-content: space-around;
     background-color: #e1e4eb;
     height: 6vh;
     align-items: center;
-
 }
+
 #ehead {
     width: 20vw;
 
 }
-#ehead h1{
+
+#ehead h1 {
     color: green;
     font-size: 28px;
 }
-#ehead h1 span{
+
+#ehead h1 span {
     color: red;
-        font-size: 28px;
+    font-size: 28px;
 }
+
 #null {
     width: 20vw;
 }
+
 #dhead {
     width: 30vw;
     margin-right: 2vw;
@@ -34,18 +39,22 @@
     cursor: pointer;
 
 }
-#dhead p{
-    color: gray;;
+
+#dhead p {
+    color: gray;
+    ;
 }
-#dhead p:hover{
+
+#dhead p:hover {
     color: black;
 }
+
 #sicons {
     display: flex;
     justify-content: space-between;
     gap: 2vw;
-
 }
+
 #inicio {
     background-color: #e1e4eb;
     display: flex;
@@ -53,90 +62,156 @@
     height: 40vh;
     align-items: center;
 }
+
 #einicio {
     margin-left: 25vw;
     display: flex;
     flex-direction: column;
 }
+
 #einicio h1 {
     font-size: 60px;
 }
-#divinicio{
+
+#divinicio {
     display: flex;
     margin-top: 1vh;
     color: gray;
 }
-#divinicio p:hover{
+
+#divinicio p:hover {
     color: black;
     cursor: pointer;
 }
-#imginicio {}
 
 #sitep2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.linha1{
+
+.linha1 {
     margin-top: 10vh;
-    border: solid 1px rgb(2, 180, 2) ;
+    border: solid 1px rgb(2, 180, 2);
     width: 3vw;
 }
-.linha2{
+
+.linha2 {
     margin-top: 0.5vh;
-    border: solid 1px green ;
+    border: solid 1px green;
     width: 5vw;
 }
-.oisom1 h1{
+
+.oisom1 h1 {
     font-size: 40px;
 }
-.oisom{
+
+.oisom {
     width: 30vw;
 }
-.oisom p{
+
+.oisom p {
     text-align: center;
     color: grey;
     margin-bottom: 4vh;
 }
-#blocos{
+
+#blocos {
     display: flex;
     justify-content: center;
-}
-#bverde{
-    background-color: rgb(104, 170, 6);
-    height: 40vh;
-    width: 20vw;
     margin-bottom: 10vh;
-    margin-right: 1vw;
 }
-#binput{
+
+#contact-block {
+    background-color: rgb(104, 170, 6);
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 22vw;
+    height: 35vh;
+    padding: 2vw;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5vh;
+}
+
+.contact-item i {
+    margin-right: 0.5vw;
+    font-size: 18px;
+}
+
+.social-follow {
+    margin-top: 4vh;
+    padding-top: 15px;  
+}
+
+.social-follow h4 {
+    margin-bottom: 2vh;
+    font-size: 16px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    opacity: 0.8;
+}
+
+#binput {
     width: 35vw;
     height: 40vh;
     margin-left: 1vw;
 }
-#binpdiv1{
+
+#binpdiv1 {
     color: grey;
 }
-#binpdiv1 p a{
+
+#binpdiv1 p a {
     color: rgb(104, 170, 6);
 }
-#binpdiv2{
+
+#binpdiv2 {
     margin-top: 2vh;
     display: flex;
     justify-content: space-between;
 }
-#binpdiv2 input{
+
+#binpdiv2 input {
     width: 17vw;
     height: 4vh;
     border: color(rgb 128, 128, 128)
 }
-#binpdiv3 input{
+
+#binpdiv3 input {
     width: 34.8vw;
     height: 4vh;
     margin-top: 2vh;
 }
-#binpdiv4 input{
+
+#binpdiv4 input {
     width: 34.8vw;
-    height: 10vh;
+    height: 15vh;
     margin-top: 2vh;
+}
+
+#binpdiv5 button {
+    margin-top: 1vh;
+    background-color: rgb(104, 170, 6);
+    color: white;
+    padding: 2vh 2.5vw;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
